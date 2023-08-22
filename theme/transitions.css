@@ -1,0 +1,13 @@
+/* assets/transitions.css */
+.page-enter-active,
+.page-leave-active {
+    transition: transform 0.5s;
+}
+
+.page-enter,
+.page-leave-to
+
+/* .page-leave-active in <2.1.8 */
+    {
+    transform: translateX(100%);
+}
